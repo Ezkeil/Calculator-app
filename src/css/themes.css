@@ -1,0 +1,118 @@
+/* Theme 1 */
+.theme-1 {
+  background-color: var(--theme-body-bg-1);
+}
+.theme-1 .theme-toggle {
+  background-color: var(--theme-toggle-bg-1);
+}
+.theme-1 .theme-toggle-handle{
+  background-color: var(--theme-key-toggle-1);
+  box-shadow: 0 1px var(--theme-key-toggle-shadow-1);
+}
+.theme-1 .screen {
+  background-color: var(--theme-screen-bg-1);
+}
+.theme-1 .keypad {
+  background-color: var(--theme-keypad-bg-1);
+}
+.theme-1 .btn-num,
+.theme-1 .operators,
+.theme-1 #decimal {
+  color: var(--theme-text-1) !important;
+  background-color: var(--theme-num-bg-1) !important;
+  box-shadow: 0 5px var(--theme-num-shadow-1);
+  width: 2.25rem;
+}
+.theme-1 span,
+.theme-1 #current,
+.theme-1 #previous,
+.theme-1 #operator {
+  color: white;
+}
+.theme-1 #delete,
+.theme-1 #reset {
+  background-color: var(--theme-body-bg-1);
+  box-shadow: 0 5px var(--theme-key-shadow-1);
+}
+.theme-1 #equal {
+  background-color: var(--theme-key-toggle-1);
+  box-shadow: 0 5px var(--theme-key-toggle-shadow-2);
+}
+
+/* Theme 2 */
+.theme-2 {
+  background-color: var(--theme-body-bg-2);
+}
+.theme-2 .theme-toggle {
+  background-color: var(--theme-toggle-bg-2);
+}
+.theme-2 .theme-toggle-handle{
+  background-color: var(--theme-key-toggle-2);
+  box-shadow: 0 1px var(--theme-key-toggle-shadow-2);
+}
+.theme-2 .screen {
+  background-color: var(--theme-screen-bg-2);
+}
+.theme-2 .keypad {
+  background-color: var(--theme-keypad-bg-2);
+}
+.theme-2 .btn-num,
+.theme-2 .operators,
+.theme-2 #decimal {
+  color: var(--theme-text-2) !important;
+  background-color: var(--theme-num-bg-2) !important;
+  box-shadow: 0 5px var(--theme-num-shadow-2);
+  width: 2.25rem;
+}
+
+.theme-2 #delete,
+.theme-2 #reset {
+  background-color: var(--theme-key-bg-2);
+  box-shadow: 0 5px var(--theme-key-shadow-2);
+}
+.theme-2 #equal {
+  background-color: var(--theme-key-toggle-2);
+  box-shadow: 0 5px var(--theme-key-toggle-shadow-2);
+}
+
+/* Theme 3 */
+.theme-3 {
+  background-color: var(--theme-body-bg-3);
+}
+.theme-3 .theme-toggle {
+  background-color: var(--theme-toggle-bg-3);
+}
+.theme-3 .theme-toggle-handle{
+  background-color: var(--theme-key-toggle-3);
+  box-shadow: 0 1px var(--theme-key-toggle-shadow-3);
+}
+.theme-3 .screen {
+  background-color: var(--theme-screen-bg-3);
+}
+.theme-3 .keypad {
+  background-color: var(--theme-keypad-bg-3);
+}
+.theme-3 .btn-num,
+.theme-3 .operators,
+.theme-3 #decimal {
+  color: var(--theme-text-3-1) !important;
+  background-color: var(--theme-num-bg-3) !important;
+  box-shadow: 0 5px var(--theme-num-shadow-3);
+  width: 2.25rem;
+}
+.theme-3 span,
+.theme-3 #current,
+.theme-3 #previous,
+.theme-3 #operator {
+  color: var(--theme-text-3-1);
+}
+.theme-3 #delete,
+.theme-3 #reset {
+  background-color: var(--theme-key-bg-3);
+  box-shadow: 0 5px var(--theme-key-shadow-3);
+}
+.theme-3 #equal {
+  color: var(--theme-text-3-2);
+  background-color: var(--theme-key-toggle-3);
+  box-shadow: 0 5px var(--theme-key-toggle-shadow-3);
+}
